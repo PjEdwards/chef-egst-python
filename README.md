@@ -1,4 +1,4 @@
-chef-gispgdb
+chef-egst-python
 ============
 
 Chef scripts for standing up EGST Python server instances

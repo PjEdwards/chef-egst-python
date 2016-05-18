@@ -7,8 +7,8 @@ yum_package %w(openssl-devel readline-devel zlib-devel htop)
 
 # ================================================
 # PostgreSQL
-include_recipe 'postgresql-client'
-yum_package 'postgis-client'
+#include_recipe 'postgresql-client'
+#yum_package 'postgis-client'
 
 # ================================================
 # Anaconda
@@ -16,6 +16,4 @@ include_recipe 'anaconda'
 
 # ================================================
 # monit 
-include_recipe 'monit-nrel'
-# opsview
-include_recipe 'opsview_client-nrel'
+#include_recipe 'monit-nrel'
